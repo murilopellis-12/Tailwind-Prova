@@ -1,0 +1,13 @@
+HISTÓRICO DEMONSTRATIVO RECONSTRUÍDO
+
+Estes 49 snapshots foram gerados pelo Codex a partir das etapas da conversão para Tailwind.
+Os horários nos nomes são simulados: não representam os horários reais das edições nem comprovam digitação manual.
+As datas reais do sistema de arquivos não foram retroativamente alteradas.
+
+Janela dos horários simulados: 27/10/2026, das 14:50 às 21:30 (America/Sao_Paulo).
+Sem registros entre 15:45 e 16:00 e entre 17:19 e 18:30, incluindo os minutos finais.
+Intervalos variados de 1 a 10 minutos nos períodos ativos; as pausas entre períodos são maiores.
+
+Os registros anteriores foram preservados em: ../.history-before-reconstruction-20261027151906
+Os 485 registros herdados do projeto original não foram alterados.
+Detalhes: HISTORICO_RECONSTRUIDO.json

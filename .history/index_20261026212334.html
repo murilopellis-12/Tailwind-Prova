@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROVA FRONT-END</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --espaco-pequeno: clamp(
+          1.5rem,
+          calc(-2.725rem + 11.268vw),
+          13.5rem
+        ); /* min: 15px, max: 135px */
+        --padding-topo: clamp(8rem, calc(5.183rem + 7.512vw), 16rem);
+
+        /*Cores*/
+        --cor-primaria: #333;
+        --cor-secundaria: #f9f7f2;
+        --cor-terciaria: #fff;
+        --complementar-roxo: #6327eb;
+        --borda-menu: rgba(255, 255, 255, 0.3);
+        --paragrafos-claros: rgba(51, 51, 51, 0.5);
+        --borda-formulario: #dadada;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: clamp(
+          5.6rem,
+          calc(5.037rem + 1.502vw),
+          7.2rem
+        ); /* min: 56px, max: 72px */
+        color: var(--cor-terciaria);
+        font-weight: bold;
+        font-family: "PT Serif";
+      }
+
+      h2 {
+        font-size: clamp(
+          4rem,
+          calc(3.437rem + 1.502vw),
+          5.6rem
+        ); /* min: 40px, max: 56px */
+        font-family: "PT Serif";
+        font-weight: bold;
+        color: var(--cor-primaria);
+      }
+
+      h3 {
+        font-size: 4rem;
+        font-family: "PT Serif";
+        font-weight: bold;
+      }
+
+      p {
+        font-family: "Roboto";
+        font-size: 2rem;
+      }
+
+      button {
+        font-family: "Roboto";
+        color: var(--cor-terciaria);
+        font-weight: normal;
+        border-radius: 5px;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header
+      class="header-principal bg-[linear-gradient(rgba(51,51,51,0.9),_rgba(51,51,51,0.9)),_url('img/imagem-fundo.png')] bg-cover bg-center w-[100%] h-auto p-[1.6rem_var(--espaco-pequeno)_clamp(5rem,calc(3.592rem+3.756vw),9rem)_var(--espaco-pequeno)] flex flex-col gap-[clamp(4.3rem,calc(2.645rem+4.413vw),9rem)]"
+    >
+      <div class="conteudo-header flex justify-between w-[100%] items-center">
+        <div>
+          <a
+            aria-label="redireciona para o início"
+            id="ancora-header"
+            href="#"
+            class="text-[4rem] no-underline text-[var(--cor-terciaria)] font-bold"
+            >REST</a
+          >
+        </div>
+        <div class="menu-hamburguer-div">
+          <button
+            id="botao-menu-hamburguer"
+            class="w-[4.8rem] h-[4.8rem] rounded-[50%] border border-solid border-[var(--borda-menu)] bg-transparent"
+          >
+            <img
+              src="img/menu-hamburguer.png"
+              alt="menu hamburguer do header"
+            />
+          </button>
+        </div>
+        <nav class="navegacao-header-desktop hidden">
+          <ul class="flex flex-row gap-[3.2rem] justify-evenly">
+            <li
+              class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+            >
+              <a
+                class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+                aria-label="abre Sobre"
+                href=""
+                >About Us</a
+              >
+            </li>
+            <li
+              class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+            >
+              <a
+                class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+                aria-label="abre Menu"
+                href=""
+                >Menu</a
+              >
+            </li>
+            <li
+              class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+            >
+              <a
+                class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+                aria-label="abre Eventos"
+                href=""
+                >Events</a
+              >
+            </li>
+            <li
+              class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+            >
+              <a
+                class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+                aria-label="abre Notícias"
+                href=""
+                >News</a
+              >
+            </li>
+            <li
+              class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+            >
+              <a
+                class="list-none text-[2rem] font-light text-[var(--cor-terciaria)] no-underline"
+                aria-label="abre contatos"
+                href=""
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="desktop-div-redes-sociais hidden">
+          <nav class="navegacao-redes-sociais-header flex gap-[0.8rem]">
+            <a
+              aria-label="abre Facebook"
+              class="circulos-navegacao w-[4.8rem] h-[4.8rem] rounded-[50%] border border-solid border-[var(--borda-menu)] flex justify-center items-center"
+              href=""
+              ><img src="img/facebook.png" alt="logo do Facebook"
+            /></a>
+            <a aria-label="abre Twitter" class="circulos-navegacao" href=""
+              ><img
+                class="logo-twitter-ancora"
+                src="img/twitter.png"
+                alt="logo do Twitter"
+            /></a>
+            <a aria-label="abre Instagram" class="circulos-navegacao" href=""
+              ><img src="img/instagram.png" alt="logo do Instagram"
+            /></a>
+          </nav>
+        </div>
+      </div>
+      <div
+        class="div-agrupar-conteudo-hero flex flex-col gap-[clamp(3.6rem,calc(1.982rem+4.314vw),6.4rem)]"
+      >
+        <div
+          class="conteudo-hero h-auto flex flex-col justify-center gap-[4rem]"
+        >
+          <h1 id="h1-pagina-principal">Welcome to our restaurant</h1>
+          <p
+            id="horario-funcionamento-hero"
+            class="text-[2.4rem] font-light text-[var(--cor-terciaria)]"
+          >
+            Everyday 8:00 am - 23:00 pm
+          </p>
+          <div
+            class="botoes-hero grid grid-cols-[1fr_1fr] gap-[clamp(0.6rem,calc(-0.245rem+2.254vw),3rem)] h-auto w-[100%] max-w-[345px]"
+          >
+            <button
+              aria-label="abre a reserva de mesa"
+              class="botoes-hero-class p-[1.2rem_0] text-[var(--cor-terciaria)] text-[1.8rem] max-w-[170px] border-0 bg-[var(--complementar-roxo)]"
+              id="botao-livro-mesa"
+            >
+              Book a table
+            </button>
+            <button
+              aria-label="abre o menu"
+              class="botoes-hero-class p-[1.2rem_0] text-[var(--cor-terciaria)] text-[1.8rem] max-w-[170px] border-0 bg-[var(--complementar-roxo)] border border-solid border-[var(--borda-menu)]"
+              id="botao-ver-menu"
+            >
+              See menu
+            </button>
+          </div>
+        </div>
+        <div class="div-imagem-hero w-auto h-auto flex justify-center">
+          <img
+            class="w-[100%] max-w-[570px] h-auto"
+            id="imagem-sopa-hero"
+            src="img/sopa.png"
+            alt="imagem de uma sopa"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="secao-nossa-historia p-[clamp(8rem,calc(5.183rem+7.512vw),16rem)_var(--espaco-pequeno)] bg-[var(--cor-secundaria)]"
+      >
+        <div
+          class="conteudo-nossa-historia flex flex-col gap-[clamp(6.3rem,calc(3.941rem+6.291vw),13rem)]"
+        >
+          <div class="div-imagem-nossa-historia">
+            <img
+              src="img/nossa-historia-imagem.png"
+              alt="imagem de uma cozinha"
+              class="w-[100%] h-auto p-[0_3rem] object-cover"
+            />
+          </div>
+          <div class="nossa-historia-texto flex flex-col justify-center">
+            <p class="categorias-site text-[2.4rem] text-" id="categoria-descobrir">Discover</p>
+            <h2 id="nossa-historia-h2">Our History</h2>
+            <p class="paragrafos-site">
+              A peep at some distant orb has power to raise and purify our
+              thoughts like a strain of sacred music, or a noble picture, or a
+              pa ssage from the grander poets. It always does one good.
+            </p>
+            <div class="div-botao-ler-mais">
+              <button aria-label="abre o Ler Mais" id="botao-ler-mais-historia">
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="secao-eventos-futuros">
+        <div class="titulos-secao-eventos-futuros">
+          <p id="paragrafo-titulo-eventos-futuros">Party with us!</p>
+          <h2 id="h2-titulo-eventos-futuros">Upcoming Events</h2>
+        </div>
+        <div class="forma-eventos-futuros">
+          <div class="imagem-evento-futuro">
+            <img
+              id="imagem-mulher-fazendo-cafe"
+              src="img/mulher-fazendo-cafe.png"
+              alt="mulher fazendo café em uma máquina"
+            />
+          </div>
+          <div class="conteudo-escrito-eventos">
+            <p class="categorias-site" id="categoria-futuro">Upcoming</p>
+            <h3>Coffe Night</h3>
+            <p id="data-eventos-futuros">25 september, 2019</p>
+            <p class="paragrafos-site">
+              Apparently we had reached a great height in the atmosphere, for
+              the sky was a dead black, and the stars had ceased to twinkle.
+            </p>
+            <div class="div-botao-ler-mais">
+              <button
+                aria-label="redireciona a reserva de mesa"
+                id="botao-reservar-mesa"
+              >
+                Book a table
+              </button>
+            </div>
+          </div>
+          <div class="proxima-pagina">
+            <button id="seta-proxima-pagina">
+              <img
+                src="img/flecha-proxima.png"
+                alt="ícone de flecha que guia para outra página"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="secao-galeria-fotos">
+        <div class="titulos-secao-galeria-fotos">
+          <p id="paragrafo-titulo-galeria">Gallery</p>
+          <h2 id="h2-titulo-galeria">Our Interior</h2>
+        </div>
+        <div class="imagens-galeria">
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/salmao.png"
+            alt="prato com temperos e salmão"
+          />
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/pratos.png"
+            alt="pratos preparados com diversos alimentos"
+          />
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/mesas-cadeiras.png"
+            alt="mesas preparadas com diversas cadeiras"
+          />
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/mesa-individual.png"
+            alt="uma unidade de mesa com lugar para 4 pessoas"
+          />
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/mesa-com-garcom.png"
+            alt="mesas e cadeiras sendo organizados por uma garçom"
+          />
+          <img
+            class="imagens-da-galeria"
+            src="img/galeria/mesa-preparada.png"
+            alt="mesa com talheres e guardanapos postos e preparados"
+          />
+        </div>
+      </section>
+      <section class="secao-sobre-nos">
+        <div class="titulos-secao-sobre-nos">
+          <p class="categorias-site" id="paragrafo-titulo-sobre-nos">Press</p>
+          <h2 id="h2-titulo-sobre-nos">About Us</h2>
+        </div>
+        <div class="cartoes-conjunto">
+          <div class="cartoes-autoras" id="autora-york-times">
+            <img
+              class="logo-titulo"
+              src="img/the-new-york-logo.png"
+              alt="logo do The New York Times"
+            />
+            <p class="citacao-autora">
+              "Apparently we had reached a great height in the atmosphere, for
+              the sky was a dead black, and the stars had ceased to twinkle. By
+              the same illusion which lifts the horizon of the sea to the
+              level."
+            </p>
+            <p class="nome-autora-rodape">The New York Times</p>
+          </div>
+          <div class="cartoes-autoras" id="autora-the-guardian">
+            <img
+              class="logo-titulo"
+              src="img/the-guardian-logo.png"
+              alt="logo do The Guardian"
+            />
+            <p class="citacao-autora">
+              "Apparently we had reached a great height in the atmosphere, for
+              the sky was a dead black, and the stars had ceased to twinkle. By
+              the same illusion which lifts the horizon of the sea to the
+              level."
+            </p>
+            <p class="nome-autora-rodape">The Guardian</p>
+          </div>
+          <div class="cartoes-autoras" id="autora-wall-street">
+            <img
+              class="logo-titulo"
+              src="img/wall-street-jornal-logo.png"
+              alt="logo do Wall Street Jornal"
+            />
+            <p class="citacao-autora">
+              "Apparently we had reached a great height in the atmosphere, for
+              the sky was a dead black, and the stars had ceased to twinkle. By
+              the same illusion which lifts the horizon of the sea to the
+              level."
+            </p>
+            <p class="nome-autora-rodape">The Wall Street Jornal</p>
+          </div>
+        </div>
+      </section>
+      <section class="secao-reservar-mesa">
+        <div class="area-reserva-mesa">
+          <div>
+            <p class="categorias-site" id="paragrafo-titulo-reserva">Reserve</p>
+            <h2 id="h2-titulo-reserva-mesa">A Table</h2>
+          </div>
+          <form action="#" class="formulario-reserva-mesa">
+            <div
+              class="campos-preencher-formulario-reserva"
+              id="formulario-campo-data"
+            >
+              <label for="data">DATE</label>
+              <input
+                type="text"
+                id="data"
+                name="data"
+                placeholder="9/26/2019"
+              />
+            </div>
+            <div
+              class="campos-preencher-formulario-reserva"
+              id="formulario-campo-tempo"
+            >
+              <label for="hora">TIME</label>
+              <input type="text" name="hora" id="hora" placeholder="7:00 pm" />
+            </div>
+            <div
+              class="campos-preencher-formulario-reserva"
+              id="formulario-campo-visitantes"
+            >
+              <label for="numero-pessoas">GUESTS</label>
+              <input
+                type="number"
+                name="numero-pessoas"
+                id="numero-pessoas"
+                placeholder="2 people"
+              />
+            </div>
+            <div id="formulario-campo-envio">
+              <button
+                aria-label="redireciona para reserva de mesa"
+                id="botao-envio-reserva"
+                type="submit"
+              >
+                Find a table
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="div-imagem-secao-reserva">
+          <img src="img/mesa-organizada.png" alt="mesa organizada" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer-principal">
+      <div>
+        <h3 id="h3-rodape-pagina">REST</h3>
+      </div>
+      <nav class="navegacao-rodape">
+        <ul>
+          <li>About Us</li>
+          <li>Menu</li>
+          <li>Events</li>
+          <li>News</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <nav class="redes-sociais-rodape-botoes">
+        <a aria-label="abre Facebook" class="circulos-navegacao" href=""
+          ><img src="img/facebook.png" alt="logo do Facebook"
+        /></a>
+        <a aria-label="abre Twitter" class="circulos-navegacao" href=""
+          ><img
+            class="logo-twitter-ancora"
+            src="img/twitter.png"
+            alt="logo do Twitter"
+        /></a>
+        <a aria-label="abre Instagram" class="circulos-navegacao" href=""
+          ><img src="img/instagram.png" alt="logo do Instagram"
+        /></a>
+      </nav>
+      <div class="direitos-reservados-rodape">
+        <p id="paragrafo-direitos-reservados">
+          2019 Restaurant. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

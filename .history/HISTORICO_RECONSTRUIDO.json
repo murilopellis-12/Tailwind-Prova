@@ -1,0 +1,517 @@
+{
+  "tipo": "Histórico demonstrativo reconstruído pelo Codex; não é o registro real dos horários das edições.",
+  "gerado_em": "2026-10-27T15:19:06-03:00",
+  "fuso_dos_nomes": "America/Sao_Paulo",
+  "nota": "Os horários nos nomes são uma simulação. As datas reais do sistema de arquivos não foram retroativamente alteradas.",
+  "backup_dos_registros_anteriores": ".history-before-reconstruction-20261027151906",
+  "quantidade": 49,
+  "versoes": [
+    {
+      "arquivo": "index_20261027145000.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Inclusão de meta: ",
+      "intervalo_anterior_segundos": null,
+      "sha256": "6778694bd6a12f124a20fbb9a1e067eb093afa7fce1784cbfd9d7f66d692b086",
+      "nome_antes_do_ajuste": "index_20261027104635.html",
+      "nome_antes_das_pausas": "index_20261027145000.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027145918.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Atualização de style",
+      "intervalo_anterior_segundos": 558,
+      "sha256": "b1378b6f43b5873707e9f03e11c9bf740e461344e6114a6d030d1f3c18147f17",
+      "nome_antes_do_ajuste": "index_20261027105019.html",
+      "nome_antes_das_pausas": "index_20261027145952.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027150837.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Inclusão de link: https://fonts.googleapis.com",
+      "intervalo_anterior_segundos": 559,
+      "sha256": "69846192836b36574111d125cd045287ccd1df78fa8294e13d8f82d4fa328f79",
+      "nome_antes_do_ajuste": "index_20261027105137.html",
+      "nome_antes_das_pausas": "index_20261027150818.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027151439.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Inclusão de link: https://fonts.gstatic.com",
+      "intervalo_anterior_segundos": 362,
+      "sha256": "7c18fbf6b83619b50b7f4b0f275a6820b5c5bf8a849af2f228d7f7a7f2a66805",
+      "nome_antes_do_ajuste": "index_20261027110110.html",
+      "nome_antes_das_pausas": "index_20261027151605.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027152149.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Inclusão de link: https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@100..900&display=swap",
+      "intervalo_anterior_segundos": 430,
+      "sha256": "d4cb2df0ca3ccfcf887f692af3c6ca34595cab23a6805b805aa9e5c73f14fe31",
+      "nome_antes_do_ajuste": "index_20261027110237.html",
+      "nome_antes_das_pausas": "index_20261027152508.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027152646.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Remoção da referência ao CSS externo",
+      "intervalo_anterior_segundos": 297,
+      "sha256": "0fa53f61c32e089dfef9f254e21ff1bc2084d4e5d3710ad67589d20d1c25460a",
+      "nome_antes_do_ajuste": "index_20261027111139.html",
+      "nome_antes_das_pausas": "index_20261027153435.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027153341.html",
+      "etapa": "Configuração Tailwind e fontes",
+      "alteracao": "Remoção da referência ao CSS externo",
+      "intervalo_anterior_segundos": 415,
+      "sha256": "0e454d331042524a06d09d4cd10c60551fc691f4c7de7577729bd94071e63fa8",
+      "nome_antes_do_ajuste": "index_20261027111923.html",
+      "nome_antes_das_pausas": "index_20261027154311.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027154155.html",
+      "etapa": "Cabeçalho",
+      "alteracao": "Conversão de 7 elementos HTML (1–7 de 32)",
+      "intervalo_anterior_segundos": 494,
+      "sha256": "cf4f49700117ed9b36f5094a92538e43f1920135a4ee746c96a497cdf4a8ec05",
+      "nome_antes_do_ajuste": "index_20261027112156.html",
+      "nome_antes_das_pausas": "index_20261027155225.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027154400.html",
+      "etapa": "Cabeçalho",
+      "alteracao": "Conversão de 7 elementos HTML (8–14 de 32)",
+      "intervalo_anterior_segundos": 125,
+      "sha256": "ba5accd182fc35fab591a39fa690ba66b85e29229eb7b1c59ee49109f9fd0a1e",
+      "nome_antes_do_ajuste": "index_20261027112332.html",
+      "nome_antes_das_pausas": "index_20261027160220.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027160100.html",
+      "etapa": "Cabeçalho",
+      "alteracao": "Conversão de 7 elementos HTML (15–21 de 32)",
+      "intervalo_anterior_segundos": 1020,
+      "sha256": "98c25ef1afbcd898849edf2107a1a8a073dbf2d455fdb6b951ebc04dae46050f",
+      "nome_antes_do_ajuste": "index_20261027112727.html",
+      "nome_antes_das_pausas": "index_20261027161116.html",
+      "intervalo_inclui_pausa": true
+    },
+    {
+      "arquivo": "index_20261027160855.html",
+      "etapa": "Cabeçalho",
+      "alteracao": "Conversão de 7 elementos HTML (22–28 de 32)",
+      "intervalo_anterior_segundos": 475,
+      "sha256": "0bc4501217b65ac3fca0dfc63ba7ee3f210607a42d7c7a6ef2903b31006c6c2e",
+      "nome_antes_do_ajuste": "index_20261027113611.html",
+      "nome_antes_das_pausas": "index_20261027162102.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027161040.html",
+      "etapa": "Cabeçalho",
+      "alteracao": "Conversão de 4 elementos HTML (29–32 de 32)",
+      "intervalo_anterior_segundos": 105,
+      "sha256": "7fb908e437696bf8d7536180a9224998911c33ebd0abc94f6300674f5bd78014",
+      "nome_antes_do_ajuste": "index_20261027114037.html",
+      "nome_antes_das_pausas": "index_20261027162851.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027162029.html",
+      "etapa": "Nossa história",
+      "alteracao": "Conversão de 2 elementos HTML (1–2 de 10)",
+      "intervalo_anterior_segundos": 589,
+      "sha256": "69609a4199970d40f60598a88da779bc223ee8cbba162036b0b1538643f9fd9e",
+      "nome_antes_do_ajuste": "index_20261027114524.html",
+      "nome_antes_das_pausas": "index_20261027163729.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027162300.html",
+      "etapa": "Nossa história",
+      "alteracao": "Conversão de 2 elementos HTML (3–4 de 10)",
+      "intervalo_anterior_segundos": 151,
+      "sha256": "458c0fc935d9e169e185efbbfbae54e0483bfac48ae251c38a1c67a8c9138958",
+      "nome_antes_do_ajuste": "index_20261027115221.html",
+      "nome_antes_das_pausas": "index_20261027164618.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027162852.html",
+      "etapa": "Nossa história",
+      "alteracao": "Conversão de 2 elementos HTML (5–6 de 10)",
+      "intervalo_anterior_segundos": 352,
+      "sha256": "c665922af7bc3fa9f920db500f4bacf130b91912d0d664307ff1b2676175d508",
+      "nome_antes_do_ajuste": "index_20261027120148.html",
+      "nome_antes_das_pausas": "index_20261027165615.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027163501.html",
+      "etapa": "Nossa história",
+      "alteracao": "Conversão de 2 elementos HTML (7–8 de 10)",
+      "intervalo_anterior_segundos": 369,
+      "sha256": "8e7bebbe9065490f55091962847f7c15667edd9a1be86ec21d1e13c3ee3e0944",
+      "nome_antes_do_ajuste": "index_20261027120425.html",
+      "nome_antes_das_pausas": "index_20261027170118.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027164432.html",
+      "etapa": "Nossa história",
+      "alteracao": "Conversão de 2 elementos HTML (9–10 de 10)",
+      "intervalo_anterior_segundos": 571,
+      "sha256": "881eb3f4f7d97a3d8a1724764d884b537376ac7198f5b4d423b11c5ccb0cc632",
+      "nome_antes_do_ajuste": "index_20261027120646.html",
+      "nome_antes_das_pausas": "index_20261027170804.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027165430.html",
+      "etapa": "Eventos",
+      "alteracao": "Conversão de 3 elementos HTML (1–3 de 15)",
+      "intervalo_anterior_segundos": 598,
+      "sha256": "b41bd0cbaf4d46b09aef8cfa1751c049e06a9e1ee7dbb486c2659b960b8d8a38",
+      "nome_antes_do_ajuste": "index_20261027121228.html",
+      "nome_antes_das_pausas": "index_20261027171702.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027165921.html",
+      "etapa": "Eventos",
+      "alteracao": "Conversão de 3 elementos HTML (4–6 de 15)",
+      "intervalo_anterior_segundos": 291,
+      "sha256": "300f17ff991d1eabb2af1834d09eb77729d62b11e3d8c146a29f770bd1599d59",
+      "nome_antes_do_ajuste": "index_20261027121606.html",
+      "nome_antes_das_pausas": "index_20261027172623.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027170406.html",
+      "etapa": "Eventos",
+      "alteracao": "Conversão de 3 elementos HTML (7–9 de 15)",
+      "intervalo_anterior_segundos": 285,
+      "sha256": "2060b96663a6773a286649bac39d36317f8dce3f2e1ab53f054f3a91333cc1a4",
+      "nome_antes_do_ajuste": "index_20261027122405.html",
+      "nome_antes_das_pausas": "index_20261027173605.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027171132.html",
+      "etapa": "Eventos",
+      "alteracao": "Conversão de 3 elementos HTML (10–12 de 15)",
+      "intervalo_anterior_segundos": 446,
+      "sha256": "af1374382a16b051af49ee31d4292750fc82e9d0b0b75401408535d8cee974db",
+      "nome_antes_do_ajuste": "index_20261027123004.html",
+      "nome_antes_das_pausas": "index_20261027174435.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027171800.html",
+      "etapa": "Eventos",
+      "alteracao": "Conversão de 3 elementos HTML (13–15 de 15)",
+      "intervalo_anterior_segundos": 388,
+      "sha256": "3c760808d44b61c42927ac95e236922aac1bed47715fe955a7572b4053aededb",
+      "nome_antes_do_ajuste": "index_20261027123842.html",
+      "nome_antes_das_pausas": "index_20261027175015.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027183100.html",
+      "etapa": "Galeria",
+      "alteracao": "Conversão de 2 elementos HTML (1–2 de 10)",
+      "intervalo_anterior_segundos": 4380,
+      "sha256": "9df3907ffb22c9387b33c49af002f175fe60183abf0b97b2d702f6ef1eae4bde",
+      "nome_antes_do_ajuste": "index_20261027124421.html",
+      "nome_antes_das_pausas": "index_20261027175817.html",
+      "intervalo_inclui_pausa": true
+    },
+    {
+      "arquivo": "index_20261027183658.html",
+      "etapa": "Galeria",
+      "alteracao": "Conversão de 2 elementos HTML (3–4 de 10)",
+      "intervalo_anterior_segundos": 358,
+      "sha256": "a4a60722b6a420e7988c55113d509df29a6668a95e9d2652c073c9cb43a1eac7",
+      "nome_antes_do_ajuste": "index_20261027125216.html",
+      "nome_antes_das_pausas": "index_20261027180457.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027184408.html",
+      "etapa": "Galeria",
+      "alteracao": "Conversão de 2 elementos HTML (5–6 de 10)",
+      "intervalo_anterior_segundos": 430,
+      "sha256": "5daa84d9e723389dc3e897e8cf74e59df4e69a49841153b27d9bf22150d907e6",
+      "nome_antes_do_ajuste": "index_20261027125858.html",
+      "nome_antes_das_pausas": "index_20261027181448.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027185121.html",
+      "etapa": "Galeria",
+      "alteracao": "Conversão de 2 elementos HTML (7–8 de 10)",
+      "intervalo_anterior_segundos": 433,
+      "sha256": "a8d463ce1b55e7f89843bd22125d2ec8ec53b7eacdfbc37bd1be8f2cd443c029",
+      "nome_antes_do_ajuste": "index_20261027130554.html",
+      "nome_antes_das_pausas": "index_20261027182357.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027185849.html",
+      "etapa": "Galeria",
+      "alteracao": "Conversão de 2 elementos HTML (9–10 de 10)",
+      "intervalo_anterior_segundos": 448,
+      "sha256": "26e051e6d6f3b6ac3ce59662c1bba756973a4eaf34bb75edbbab1558bb35f593",
+      "nome_antes_do_ajuste": "index_20261027130739.html",
+      "nome_antes_das_pausas": "index_20261027183226.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027190243.html",
+      "etapa": "Sobre nós",
+      "alteracao": "Conversão de 4 elementos HTML (1–4 de 17)",
+      "intervalo_anterior_segundos": 234,
+      "sha256": "0c5a50a7f880d0c5c2126263ecc437e93c61eb64309f0a39b20ebe4bfcc624c1",
+      "nome_antes_do_ajuste": "index_20261027131646.html",
+      "nome_antes_das_pausas": "index_20261027184218.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027191211.html",
+      "etapa": "Sobre nós",
+      "alteracao": "Conversão de 4 elementos HTML (5–8 de 17)",
+      "intervalo_anterior_segundos": 568,
+      "sha256": "21b8787879c2be5dd38ce3a69a8bb395ad2911f7530e613183ac62ef83525595",
+      "nome_antes_do_ajuste": "index_20261027132016.html",
+      "nome_antes_das_pausas": "index_20261027184919.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027191819.html",
+      "etapa": "Sobre nós",
+      "alteracao": "Conversão de 4 elementos HTML (9–12 de 17)",
+      "intervalo_anterior_segundos": 368,
+      "sha256": "ea42f2f13070112dc4c354a49f3b1c9c61857239382475ddb33d0a12712006bd",
+      "nome_antes_do_ajuste": "index_20261027132315.html",
+      "nome_antes_das_pausas": "index_20261027185513.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027192048.html",
+      "etapa": "Sobre nós",
+      "alteracao": "Conversão de 4 elementos HTML (13–16 de 17)",
+      "intervalo_anterior_segundos": 149,
+      "sha256": "58125a7506229efb9c14b7327fb8d04054012726d39f7e007dca92d65396c810",
+      "nome_antes_do_ajuste": "index_20261027133024.html",
+      "nome_antes_das_pausas": "index_20261027190228.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027192813.html",
+      "etapa": "Sobre nós",
+      "alteracao": "Conversão de 1 elementos HTML (17–17 de 17)",
+      "intervalo_anterior_segundos": 445,
+      "sha256": "8978ba2b5d4298456fff2f2b0e893d0ca8ac1a7876949c94f076136b85f0555e",
+      "nome_antes_do_ajuste": "index_20261027133633.html",
+      "nome_antes_das_pausas": "index_20261027191132.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027193252.html",
+      "etapa": "Reserva",
+      "alteracao": "Conversão de 4 elementos HTML (1–4 de 18)",
+      "intervalo_anterior_segundos": 279,
+      "sha256": "ad5e0558fd2ee6f08dd73505f1efee101f4c96f3e6a4a8cbc7c3a0a92b4c7a30",
+      "nome_antes_do_ajuste": "index_20261027133740.html",
+      "nome_antes_das_pausas": "index_20261027191720.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027194141.html",
+      "etapa": "Reserva",
+      "alteracao": "Conversão de 4 elementos HTML (5–8 de 18)",
+      "intervalo_anterior_segundos": 529,
+      "sha256": "32f3e82e363290e88c99be3b791835b172a0c8368b47c0a7bcfc572fa458c057",
+      "nome_antes_do_ajuste": "index_20261027134550.html",
+      "nome_antes_das_pausas": "index_20261027192639.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027195121.html",
+      "etapa": "Reserva",
+      "alteracao": "Conversão de 4 elementos HTML (9–12 de 18)",
+      "intervalo_anterior_segundos": 580,
+      "sha256": "1f03e91f368013a3795e13753cef220908e2491fbdbd1921d84b4c2350353317",
+      "nome_antes_do_ajuste": "index_20261027135158.html",
+      "nome_antes_das_pausas": "index_20261027193615.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027200028.html",
+      "etapa": "Reserva",
+      "alteracao": "Conversão de 4 elementos HTML (13–16 de 18)",
+      "intervalo_anterior_segundos": 547,
+      "sha256": "3dc242122c1ca10e1f6a0b463c2a8940bd939b48970bce1d6b8f4fcd486f05f0",
+      "nome_antes_do_ajuste": "index_20261027135932.html",
+      "nome_antes_das_pausas": "index_20261027194410.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027200553.html",
+      "etapa": "Reserva",
+      "alteracao": "Conversão de 2 elementos HTML (17–18 de 18)",
+      "intervalo_anterior_segundos": 325,
+      "sha256": "5839b22c3e920bfb2ef72bd53e6826997bd6bd3214b3613cbe30914115fcea06",
+      "nome_antes_do_ajuste": "index_20261027140853.html",
+      "nome_antes_das_pausas": "index_20261027195238.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027201526.html",
+      "etapa": "Rodapé",
+      "alteracao": "Conversão de 4 elementos HTML (1–4 de 17)",
+      "intervalo_anterior_segundos": 573,
+      "sha256": "77f914158a1b88c43a9142cb561dc01dc99d674e861e750148b76e6deaf78e8f",
+      "nome_antes_do_ajuste": "index_20261027141606.html",
+      "nome_antes_das_pausas": "index_20261027200137.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027201954.html",
+      "etapa": "Rodapé",
+      "alteracao": "Conversão de 4 elementos HTML (5–8 de 17)",
+      "intervalo_anterior_segundos": 268,
+      "sha256": "89f8a44b26d7a029b449fe0773b3e65f02e4015f1ab3835952351c9122327a06",
+      "nome_antes_do_ajuste": "index_20261027141938.html",
+      "nome_antes_das_pausas": "index_20261027201036.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027202643.html",
+      "etapa": "Rodapé",
+      "alteracao": "Conversão de 4 elementos HTML (9–12 de 17)",
+      "intervalo_anterior_segundos": 409,
+      "sha256": "e05b54b8c8b17e645275fc0eb2ce834503c09c3be3de1a0b8da8197489dc2963",
+      "nome_antes_do_ajuste": "index_20261027142133.html",
+      "nome_antes_das_pausas": "index_20261027202008.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027203549.html",
+      "etapa": "Rodapé",
+      "alteracao": "Conversão de 4 elementos HTML (13–16 de 17)",
+      "intervalo_anterior_segundos": 546,
+      "sha256": "8ebaf59363c3c3d23e65922ed47272a7ba7aea788efff9d594fea94fb6138005",
+      "nome_antes_do_ajuste": "index_20261027142541.html",
+      "nome_antes_das_pausas": "index_20261027202932.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027204435.html",
+      "etapa": "Rodapé",
+      "alteracao": "Conversão de 1 elementos HTML (17–17 de 17)",
+      "intervalo_anterior_segundos": 526,
+      "sha256": "c1867d3fc5d26d24b74b6c3a06e413b7a920f306c3611d26d427ca098a0c9a6d",
+      "nome_antes_do_ajuste": "index_20261027143145.html",
+      "nome_antes_das_pausas": "index_20261027203342.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027205426.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Atualização de style",
+      "intervalo_anterior_segundos": 591,
+      "sha256": "8fe6b71d17a1b013d68796ec8a9acc325cc2169c0da9965255d52b947bcb7d1e",
+      "nome_antes_do_ajuste": "index_20261027143253.html",
+      "nome_antes_das_pausas": "index_20261027203843.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027205704.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Conversão de 3 elementos HTML (1–3 de 13)",
+      "intervalo_anterior_segundos": 158,
+      "sha256": "08ff3594a8664fe3794b25f83d2279be2d681b1dd8c0d96da71c280c9f4d34a2",
+      "nome_antes_do_ajuste": "index_20261027143833.html",
+      "nome_antes_das_pausas": "index_20261027204732.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027210107.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Conversão de 3 elementos HTML (4–6 de 13)",
+      "intervalo_anterior_segundos": 243,
+      "sha256": "8d6bce9de9500f05b6b9a3d58f294bff0f4cdff10bcb58f28b1630609ca58df6",
+      "nome_antes_do_ajuste": "index_20261027144740.html",
+      "nome_antes_das_pausas": "index_20261027205729.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027210658.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Conversão de 3 elementos HTML (7–9 de 13)",
+      "intervalo_anterior_segundos": 351,
+      "sha256": "01ed89377832138fc206355b50a9a8691842b0744aae644f9e046f836ffcc23f",
+      "nome_antes_do_ajuste": "index_20261027145528.html",
+      "nome_antes_das_pausas": "index_20261027210448.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027211206.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Conversão de 3 elementos HTML (10–12 de 13)",
+      "intervalo_anterior_segundos": 308,
+      "sha256": "93f087c3dcf10f9b94842da1217fb61176d75a51e6652fd9bc8ab6b53667139c",
+      "nome_antes_do_ajuste": "index_20261027150414.html",
+      "nome_antes_das_pausas": "index_20261027211339.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027212138.html",
+      "etapa": "Ajustes de fidelidade visual",
+      "alteracao": "Conversão de 1 elementos HTML (13–13 de 13)",
+      "intervalo_anterior_segundos": 572,
+      "sha256": "3a2a89f530640e771757566f0410f878cd8c3a6f43a0415ff4bfd7458c4e72d0",
+      "nome_antes_do_ajuste": "index_20261027151348.html",
+      "nome_antes_das_pausas": "index_20261027212232.html",
+      "intervalo_inclui_pausa": false
+    },
+    {
+      "arquivo": "index_20261027213000.html",
+      "etapa": "Imagem de fundo do cabeçalho",
+      "alteracao": "Conversão de 1 elementos HTML (1–1 de 1)",
+      "intervalo_anterior_segundos": 502,
+      "sha256": "1dc463596ff14447d6b9449148d8b0e13983cd5549508d968dd3bc2cb3e3ffcc",
+      "nome_antes_do_ajuste": "index_20261027151906.html",
+      "nome_no_manifesto_anterior": "index_20261027213000.html",
+      "nome_antes_das_pausas": "index_20261027212921.html",
+      "intervalo_inclui_pausa": false
+    }
+  ],
+  "janela_dos_horarios_simulados": {
+    "inicio": "2026-10-27T14:50:00-03:00",
+    "fim": "2026-10-27T21:30:00-03:00"
+  },
+  "horarios_ajustados_em": "2026-10-27T15:24:16.027047-03:00",
+  "faixas_sem_registros_simulados": [
+    {
+      "de": "15:45",
+      "ate": "16:00"
+    },
+    {
+      "de": "17:19",
+      "ate": "18:30"
+    }
+  ],
+  "nota_dos_intervalos": "Intervalos variados entre 1 e 10 minutos nos períodos ativos. As pausas solicitadas têm intervalos maiores, sem registros nas faixas excluídas, incluindo seus minutos finais."
+}
